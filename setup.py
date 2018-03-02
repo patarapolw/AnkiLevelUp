@@ -20,6 +20,9 @@ elif sys.platform == 'win32':
     setup_requires.extend(['py2exe', 'pywebview[winforms]'])
     extra_options = dict(
         app=[mainscript],
+        options=dict(py2exe=dict(
+            includes='web.wsgiserver.wsgiserver3',
+        ))
     )
 else:
     setup_requires.extend(['pywebview[gtk3]'])
