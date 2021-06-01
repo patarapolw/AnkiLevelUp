@@ -84,5 +84,5 @@ pyobjc-framework-WebKit==4.1
 pywebview==1.8
 requests==2.20.0
 sip==4.19.8
-urllib3==1.24.2
+urllib3==1.26.5
 web.py==0.40.dev1
