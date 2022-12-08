@@ -1,7 +1,7 @@
 -e git+https://github.com/patarapolw/AnkiTools.git@4424d94f775e58a9140f98b3cbd28e146bdf8a6b#egg=AnkiTools
 beautifulsoup4==4.6.0
 bs4==0.0.1
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 idna==2.6
 pyobjc==4.1
